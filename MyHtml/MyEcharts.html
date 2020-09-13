@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我一天的时间</title>
+    <link rel="stylesheet"  type="text/css" href="css/MyEcharts.css">
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+    <div id="dao">
+        <ul>
+            <li id="home"><a class="a_h" href="home.html">主页</a></li>
+            <li><a href="mytable.html" class="a_h">我的课程表</a></li>
+            <li><a href="lianhui.html" class="a_h">如何读懂30分钟的人大工作报告</a></li>
+            <li><a href="Calculator.html" class="a_h">简易计算器</a></li>
+            <li><a href="MyEcharts.html" class="now">我一天的时间</a></li>
+            <!-- 目前地址 -->
+            <li><a href="MyMap.html" class="a_h">地图</a></li>
+            <li><a href="https://www.uooconline.com" target="_blank" class="a_h">优课UOOC</a></li>
+            <li><a href="https://naotu.baidu.com/" target="_blank" class="a_h">百度脑图</a></li>
+            <li><a href="https://www.runoob.com/html/html-tutorial.html" target="_blank" class="a_h">教程HTML</a></li>
+            <li><a href="connection.html" class="a_h">联系我</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div id="tc"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('tc'));
+        var option = {
+            title: {
+                text: '我的一天',
+                left: 'center',
+            },
+            legend: {
+                left: 'center',
+                top: 'bottom',
+            },
+            series: [{
+                name: '姓名',
+                type: 'pie',
+                radius: '60%',
+                center: ['50%', '50%'],
+                
+                data: [
+            {value: 8, name: '睡觉'},
+            {value: 2, name: '吃饭'},
+            {value: 6, name: '上课'},
+            {value: 2, name: '看电视'},
+            {value: 2, name: '看手机'}
+        ],
+            }],
+        };
+        myChart.setOption(option);
+    </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+    /* 外边框 */
+}
+/* 背景 */
+#dao{
+    height: 5%;
+    width: 100%;
+    margin:0;
+}
+/* 导航条的长宽 边的距离 */
+ul {     
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* 导航背景颜色，链接下划线 */
+#home{
+   background-color: lightskyblue; 
+}
+/* 主页导航颜色 */
+.now{
+    background-color:lightgray;
+    color: black;
+}
+/* 目前所在的位置显色 */
+li {
+    float: left;
+}
+/* 选项靠右 */
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* 鼠标前导航字体颜色，字体位置 */
+li a:hover.a_h {
+    background-color: lightgray;
+    color: black;
+    text-decoration:blink;
+}
+li a:active.a_h{
+    color: gray;
+    text-decoration:blink;
+}
+/* 鼠标touch */
+/* 导航 */
+#content{
+    background-color:#EEEEEE;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* 内容背景 */
+div #tc{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin:0xp 0px;
+    height: 350px;
+}
+p.e{
+    text-indent:2em;
+}
+/* 内容文本格式位置 */

@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    /* 外边框 */
+    background-color: lightgray;
+}
+/* 背景 */
+#dao{
+    height: 5%;
+    width: 100%;
+    margin:0;
+}
+/* 导航条的长宽 边的距离 */
+ul {     
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* 导航背景颜色，链接下划线 */
+#home{
+   background-color: lightskyblue; 
+}
+/* 主页导航颜色 */
+.now{
+    background-color:lightgray;
+    color: black;
+}
+/* 目前所在的位置显色 */
+li {
+    float: left;
+}
+/* 选项靠右 */
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* 鼠标前导航字体颜色，字体位置 */
+li a:hover.a_h {
+    background-color: lightgray;
+    color: black;
+    text-decoration:blink;
+}
+li a:active.a_h{
+    color: gray;
+    text-decoration:blink;
+}
+/* 鼠标touch */
+/* 导航 */
+#content{
+    background-color:#EEEEEE;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin:10px 0px;
+}
+/* 内容背景 */
+#tc{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin:10px 0px;
+}
+p.connect{
+    text-align: center;
+}
+p.lh{
+    text-indent:2em;
+}
+/* 内容文本格式位置 */
+#map{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* 地图 */
+/* ==================================================================================================================================== */
+
+.dropbtn {
+    background-color: gray;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(128, 128, 128, 0.507);
+}
+#r-result{width:100%;}
+/* 下拉 */
+/* ==================================================================================================================================== */
+
