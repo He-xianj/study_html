@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易计算器</title>
+    <!-- 图标 -->
+    <link rel="icon" type="image/x-icon" href="../img/bitbug_favicon.ico" />
+    <!-- 插件 -->
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <!-- 计算器的css -->
+    <link rel="stylesheet" href="../css/calculator.css">
+    <!-- 计算器的计算方法 -->
+    <script src="../js/calculator.js"></script>
+    <!-- 全部都可以 -->
+</head>
+<body>
+    <div>
+        <ul class="layui-nav" lay-filter="">
+            <li class="layui-nav-item"><a class="active" href="../index.html"><img src="../img/Baby_Slime_Minion.png" >主页</a></li>
+            <li class="layui-nav-item"><a href="mytable.html" class="a_h">我的课程表</a></li>
+            <li class="layui-nav-item"><a href="randtea.html" class="a_h">蜜雪冰城</a></li>
+            <!--目前地址-->
+            <li class="layui-nav-item layui-this"><a href="Calculator.html" class="a_h">简易计算器</a></li>
+             <!---->
+            <li class="layui-nav-item"><a href="MyEcharts.html" class="a_h">我一天的时间</a></li>
+            <li class="layui-nav-item"><a href="https://www.runoob.com/html/html-tutorial.html" target="_blank"
+                    class="a_h">菜鸟教程</a></li>
+            <li class="layui-nav-item"><a href="connection.html" class="a_h">联系我</a></li>
+        </ul>
+    </div>
+    <article id="tc">
+        <table cellpadding="30">
+            <thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="4" id="screen">
+                        <var id="n_a" type="text"></var><var id="n_type"></var><var id="n_b" value=""></var><var id="n_c"></var><var id="n_d"></var>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#7" class="touch" onclick="set(7)">7</a></td>
+                    <td><a href="#8" class="touch" onclick="set(8)">8</a></td></td>
+                    <td><a href="#9" class="touch" onclick="set(9)">9</a></td>
+                    <td><a href="#÷" class="touch" onclick="stpye(44)">÷</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#4" class="touch" onclick="set(4)">4</a></td>
+                    <td><a href="#5" class="touch" onclick="set(5)">5</a></td>
+                    <td><a href="#6" class="touch" onclick="set(6)">6</a></td>
+                    <td><a href="#x" class="touch" onclick="stpye(33)">×</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#1" class="touch" onclick="set(1)">1</a></td>
+                    <td><a href="#2" class="touch" onclick="set(2)">2</a></td>
+                    <td><a href="#3" class="touch" onclick="set(3)">3</a></td>
+                    <td><a href="#-" class="touch" onclick="stpye(22)">-</a></td>
+                </tr>
+                <tr>
+                    <td><a href="Calculator.html" class="touch" onclick="">C</a></td>
+                    <td><a href="#0" class="touch" onclick="set(0)">0</a></td>
+                    <td><a href="#result" class="touch" onclick="result()">=</a></td>
+                    <td><a href="#+" class="touch" onclick="stpye(11)">+</a></td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </article>
+    <div class="foot">
+		<p class="foot">何贤君QQ:473331480  邮箱:474331480@qq.com  ☎:18025064803</p>
+	</div>
+</body>
+</html>

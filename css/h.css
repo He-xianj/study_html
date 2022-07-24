@@ -1,0 +1,88 @@
+body{
+    height: 100%;
+    background-image: url(../img/90955d64713cd0b274084204f55f09c.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    margin: 0;
+    /* 外边框 */
+}
+/* 背景 */
+#dao{
+    height: 5%;
+    width: 100%;
+    margin:0;
+}
+ul {     
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparentt;
+}
+#home{
+  background-color:rgb(135, 206, 250);
+  /* border-radius: 28px; */
+}
+
+li {
+    float: left;
+}
+li.music{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* border-radius: 28px; */
+}
+li a:hover.a_h {
+    background-color: rgba(245, 245, 245, 0.300);
+    color: darkred;
+    text-decoration:blink;
+}
+li a:active.a_h{
+    background-color:rgba(245, 245, 245, 0.200); ;
+    color: black;
+    text-decoration:blink;
+}
+/* 导航 */
+.title{
+    color: ivory;
+    margin: 0;
+    letter-spacing: 10px;
+    font-size: 30px;
+    animation:startM 8s;
+}
+@keyframes startM{
+	from {color: transparent;}
+	to {color:ivory}
+}
+/* 标题特效 */
+#tt{
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 中间标题 */
+  .foot{
+    background-color: rgba(0, 0, 0, 0.129);
+    width: 100%;
+    height: 20px;
+    position:fixed;
+    bottom:0px;
+  }
+  p.foot{
+     text-align: center;
+     
+  }
+  /* 底部 */
